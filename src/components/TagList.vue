@@ -4,10 +4,10 @@
             <v-col 
             v-for="(tag, index) in separatedTags"
             :key="index"
-            class="flex-grow-0"
+            class="flex-grow-0 text-no-wrap"
             :class="[isHalfWidth ? 
                     'hidden-sm-and-down' : 
-                    'justify-center text-no-wrap d-none d-sm-flex']"
+                    'justify-center d-none d-sm-flex']"
             xs="12"
             >
                 <v-icon v-if="tag.icon"> {{ tag.icon }}</v-icon>
