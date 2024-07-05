@@ -1,4 +1,4 @@
-# tag-list
+# Tag List for Technesis by Shadrina Anastasia
 
 ## Project setup
 ```
